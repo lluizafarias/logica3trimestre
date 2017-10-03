@@ -1,5 +1,4 @@
 <?php
-//inclui o código PHP, executando-o
 include("cabecalho.php");
 
 print(date("l, F d, Y, H:i:s"));
@@ -7,14 +6,11 @@ print(date("l, F d, Y, H:i:s"));
 		<a href="inserirContato.php">Inserir novo contato...</a>
 
 <?php
-//Funcao file abre um arquivo e retorna seu conteudo para unm ARRAY
 	$dados = file("agenda.csv");
-//percorrer o array e exibir cada um dos elementos
+
 	print('<table border="1">');
 	$cont=0;
 	foreach ($dados as $linha) {
-		//partes é um array que recebe o resultado da separação do texto pelo separador ";"
-
 		$partes = explode(";", $linha);
 		if($cont==0){
 			print('<tr>
@@ -39,9 +35,6 @@ print(date("l, F d, Y, H:i:s"));
 	print('</table>');
 
 
-
-//Funcao abre um arquivo e retorna seu conteudo em uma STRING
 	$rodape = file_get_contents('rodape.html');
 	print($rodape);
 ?>
-<h1><?=$cont ?></h1>

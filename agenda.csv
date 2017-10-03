@@ -1,9 +1,9 @@
-Código;Nome;Telefone;Email
-1;Rafael;765765-98768;rafael.speroni@ifc.edu.br
-2;Adamo;12321-12321;adamo.dalberto@ifc.edu.br
-3;Eduardo;32130-1321;eduardo.silva@ifc.edu.br
-4;Emerson;4321-1234;emerson@
-5;Jefferson;555-555;jefferson.chaves@ifc.edu.br
-6;Marco;13321-321321;email@mail.com
-7;Ricardo;2432-42134;ricardo@sadfds
-8;Ivo;14321-3123;ivo@sadsa
+Código;Nome;Telefone;Email;Fotos
+1;Luiza;765765-98768;lluizafarias@gmail.com;imagens/luiza.jpg
+2;Gabrielle;12321-12321;gabydannebrock@gmail.com;imagens/gabi.jpg
+3;Bruno;32130-1321;bruno.brieman@gmail.com;imagens/bruno.jpg
+4;Walace;4321-1234;walace.maia@gmail.com;imagens/semfoto.png
+5;Matheus Silva;555-555;silva.matheus@gmail.com;imagens/semfoto.png
+6;Quintino;13321-321321;quintino.matheus@gmail.com;imagens/semfoto.png
+7;Leonardo;2432-42134;paas.leo@gmail.com;imagens/semfoto.png
+8;Ana;14321-3123;ana.naumann@gmail.com;imagens/semfoto.png
